@@ -27,6 +27,7 @@ function calculation(firstinput, secondinput, operator) {
         calresult = firstinput / secondinput;
     }
     else {
+        
         console.log('Please input any operator for calculation !!!!');
     }
     return calresult;
