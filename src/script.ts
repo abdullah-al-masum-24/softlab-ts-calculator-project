@@ -4,7 +4,7 @@ let returnresult : number;
 let finalresult : number;
 
 // This function is calling to show calculation result.
-resultshow(2, 5, '*' );
+resultshow(10, 5, '*' );
 
 // This is a Calculation Result Showing Function
 function resultshow( firstinput: number, secondinput: number, operator: string ) {
@@ -40,4 +40,5 @@ function calculation( firstinput: number, secondinput: number, operator: string 
     }
 
     return calresult;
+
 }

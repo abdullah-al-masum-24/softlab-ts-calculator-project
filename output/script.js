@@ -4,7 +4,7 @@ let calresult;
 let returnresult;
 let finalresult;
 // This function is calling to show calculation result.
-resultshow(2, 5, '*');
+resultshow(10, 5, '*');
 // This is a Calculation Result Showing Function
 function resultshow(firstinput, secondinput, operator) {
     returnresult = calculation(firstinput, secondinput, operator);
@@ -27,8 +27,7 @@ function calculation(firstinput, secondinput, operator) {
         calresult = firstinput / secondinput;
     }
     else {
-        
-        console.log('Please input any operator for calculation !!!!');
+        console.log('Please input any operator for calculation!!!!');
     }
     return calresult;
 }
